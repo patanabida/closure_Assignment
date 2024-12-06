@@ -17,3 +17,11 @@ const createCounter = () => {
     }
   };
 };
+
+
+const counter = createCounter(); // Create a new counter instance
+
+counter.increment(); // Current count: 1
+counter.increment(); // Current count: 2
+counter.decrement(); // Current count: 1
+counter.display();   // Current count: 1
